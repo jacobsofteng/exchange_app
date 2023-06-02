@@ -6,8 +6,14 @@ class Observer extends BlocObserver {
 
   @override
   void onEvent(Bloc bloc, Object? event) {
-    super.onEvent(bloc, event);
     _logger.d(event);
+    super.onEvent(bloc, event);
+  }
+
+  @override
+  void onChange(BlocBase bloc, Change change) {
+    _logger.d(change);
+    super.onChange(bloc, change);
   }
 
   @override

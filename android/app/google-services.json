@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "171282885839",
+    "project_id": "exchange-rates-app-5dfeb",
+    "storage_bucket": "exchange-rates-app-5dfeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171282885839:android:8beed6895d0bcecde8dbba",
+        "android_client_info": {
+          "package_name": "com.example.exchange_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOh63D2juutLAd7P1BEQN6xSsxnCxujWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
